@@ -19,7 +19,7 @@ import {
 class AppRouter extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/ilyes-zouaoui-redux-CRUD-bootstrap">
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
