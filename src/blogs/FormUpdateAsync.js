@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import _ from "lodash";
-import InputErrorMessage from "./InputErrorMessage";
 
 import { connect } from "react-redux";
 import * as actions from "./store/action";
@@ -114,10 +113,10 @@ class FormUpdate extends Component {
             errorMessage={"image url is required!"}
           />
 
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             update async
           </button>
-          <button class="btn btn-primary ml-2" onClick={this.onCancel}>
+          <button className="btn btn-primary ml-2" onClick={this.onCancel}>
             cancel
           </button>
           {error && (

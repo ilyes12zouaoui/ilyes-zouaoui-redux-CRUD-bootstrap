@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import _ from "lodash";
-import InputErrorMessage from "./InputErrorMessage";
 import { generateUniqueId } from "../utilities/utilities";
 import FormInput from "./FormInput";
 import { connect } from "react-redux";
@@ -105,7 +104,7 @@ class FormCreate extends Component {
             errorMessage={"image url is required!"}
           />
 
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             create
           </button>
           {error && (

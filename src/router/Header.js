@@ -10,14 +10,14 @@ export default () => {
           Zouaoui ilyes Redux CRUD
         </NavLink>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#collapsibleNavbar"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div className="collapse navbar-collapse" id="collapsibleNavbar">
           {/* <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -25,15 +25,15 @@ export default () => {
               </a>
             </li>
           </ul> */}
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
               <NavLink className="nav-link" style={{ fontSize: "19px" }} to="/">
                 home
               </NavLink>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdownMenuLink"
                 data-toggle="dropdown"
@@ -44,7 +44,7 @@ export default () => {
                 blogs
               </a>
               <div
-                class="dropdown-menu dropdown-menu-right "
+                className="dropdown-menu dropdown-menu-right "
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <NavLink

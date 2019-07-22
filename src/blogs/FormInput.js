@@ -15,22 +15,24 @@ export default ({
   let FeedBackDiv = null;
   if (isDirty && success) {
     divGroupClassNames = "form-group has-success";
-    FeedBackDiv = <div class="valid-feedback">Success! You've done it.</div>;
+    FeedBackDiv = (
+      <div className="valid-feedback">Success! You've done it.</div>
+    );
     inputClassNames = "form-control is-valid";
   }
   if (isDirty && !success) {
     divGroupClassNames = "form-group has-danger";
-    FeedBackDiv = <div class="invalid-feedback">{errorMessage}</div>;
+    FeedBackDiv = <div className="invalid-feedback">{errorMessage}</div>;
     inputClassNames = "form-control is-invalid";
   }
   return (
     <div className={divGroupClassNames}>
-      <label class="col-form-label col-form-label-lg" for={name}>
+      <label className="col-form-label col-form-label-lg" for={name}>
         {label}
       </label>
       {type == "input" ? (
         <input
-          class={inputClassNames}
+          className={inputClassNames}
           type="text"
           placeholder="..."
           value={value}
@@ -40,7 +42,7 @@ export default ({
         />
       ) : (
         <textarea
-          class={inputClassNames}
+          className={inputClassNames}
           type="text"
           placeholder="..."
           value={value}
