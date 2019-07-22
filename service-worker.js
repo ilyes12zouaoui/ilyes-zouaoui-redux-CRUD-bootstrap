@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ilyes-zouaoui-redux-CRUD-bootstrap/precache-manifest.209607a5a3a54d4e0667787497665355.js"
+  "/ilyes-zouaoui-redux-CRUD-bootstrap/precache-manifest.1bb74aae55dd59e66df90727ba61bfc5.js"
 );
 
 self.addEventListener('message', (event) => {
