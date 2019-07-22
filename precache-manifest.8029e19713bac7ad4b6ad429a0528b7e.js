@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92d1bb67dd02f5b417284f0e08fbf538",
+    "revision": "cc54d278217b92865a41a992d3f0c1b7",
     "url": "/ilyes-zouaoui-redux-CRUD-bootstrap/index.html"
   },
   {
-    "revision": "8854c70707c8859677df",
+    "revision": "17371e3dd42632864e6f",
     "url": "/ilyes-zouaoui-redux-CRUD-bootstrap/static/css/main.f556f146.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ilyes-zouaoui-redux-CRUD-bootstrap/static/js/2.09358016.chunk.js"
   },
   {
-    "revision": "8854c70707c8859677df",
-    "url": "/ilyes-zouaoui-redux-CRUD-bootstrap/static/js/main.a233b492.chunk.js"
+    "revision": "17371e3dd42632864e6f",
+    "url": "/ilyes-zouaoui-redux-CRUD-bootstrap/static/js/main.4b7a4296.chunk.js"
   },
   {
     "revision": "dab4b76fc2db7c7fe213",
