@@ -19,7 +19,7 @@ import {
 class AppRouter extends Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <>
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -36,7 +36,7 @@ class AppRouter extends Component {
           <Route component={PageNotFound} />
         </Switch>
         <Footer />
-      </BrowserRouter>
+      </>
     );
   }
 }
